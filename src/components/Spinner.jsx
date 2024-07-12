@@ -1,8 +1,9 @@
+import './Spinner.css'
 const Spinner = () =>
 {
    return(
-    <div>
-          <p>Spinner</p>
+    <div className='spinner'>
+          <p></p>
     </div>
    )
 }

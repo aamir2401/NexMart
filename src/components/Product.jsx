@@ -15,16 +15,7 @@ const Product = ({post}) => {
             
             <div className="flex flex-row justify-around">
                <p>{post.price}</p>
-              <button className="">
-                {
-                  true ? <div>
-                    <p>Delete from Cart</p>
-                  </div> :
-                  <div>
-                    <p>Move to Cart</p>
-                  </div>
-                }
-              </button>
+
             </div>
       </div>
         
