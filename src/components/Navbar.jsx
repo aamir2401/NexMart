@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="flex flex-row justify-between">
         <NavLink to="/">
           
-          <img src="https://99designs.com/inspiration/logos/ecommerce" />
+          <img src="https://99designs.com/inspiration/logos/ecommerce" alt="error" loading="lazy"/>
           
         </NavLink>
 
@@ -18,7 +18,7 @@ const Navbar = () => {
 
            <NavLink to="/cart">
             <div>
-            <RiShoppingCart2Fill />
+              <RiShoppingCart2Fill />
             </div>
            </NavLink>
         </div>
